@@ -3,5 +3,5 @@ class Dog < Sinatra::Base
 
   @@all = []
 
-  
+
 end
