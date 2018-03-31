@@ -1,4 +1,4 @@
-class Dog < Sinatra::Base
+class Dog 
   attr_accessor :name, :breed, :age
 
   @@all = []
@@ -8,5 +8,5 @@ class Dog < Sinatra::Base
     @breed = breed
     @age = age
   end
-  
+
 end
